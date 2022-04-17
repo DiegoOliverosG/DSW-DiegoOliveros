@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 1</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <header>
+        <div><img src="img/Logo.png" alt="Logo de Sitio" width="229" height="100">
+        </div>
+        <div>
+            <h3>
+                <br>
+                OVA: Aprende HTML con los diferentes recursos que tenemos a tu disposición
+            </h3>
+        </div>
+        <div>
+            <img src="img/Acreditado.png" alt="Acreditado" width="229" height="100">
+        </div>
+
+    </header>
+
+    <nav>
+        <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Temas</a>
+                    <ul>
+                        <li><a href="Tema1.html">Tema 1</a></li>
+                        <li><a href="Tema2.html">Tema 2</a></li>
+                        <li><a href="Bibliografia.html">Bibliografía</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Recursos Multimedios</a>
+                    <ul>
+                        <li><a href="Recurso1.html">Recurso 1</a></li>
+                        <li><a href="Recurso2.html">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Aprendizaje</a>
+                    <ul>
+                        <li><a href="#">Actividad 1</a></li>
+                        <li><a href="#">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Acerca de</a>
+                    <ul>
+                        <li><a href="Acercade.html">Autor</a></li>
+                    </ul>
+                </li>   
+        </ul>
+        
+    <section>
+        <article>
+            <center><h3>Etiquetas básicas de HTML</h3></center>   
+            <p>
+                Continuando con esta temática, Las etiquetas de HTML no son más que pequeños bloques de código que tienen unas funciones y unos usos específicos empleados para escribir código en HTML, señalando al navegador cómo debe interpretarlas en cuanto a su contenido; es decir si se quiere insertar un texto en forma de párrafo, hay una etiqueta específica para que el navegador pueda interpretar ese texto como un párrafo.
+                La estructura de las etiquetas HTML comienza con el símbolo «<» y termina con el símbolo «>». En la mitad de estos dos símbolos va el nombre de la etiqueta que se quiere que interprete el navegador.
+                Ahora se van a conocer ejemplos de estas etiquetas, así que permaneciendo con los conceptos que brinda Castillo (2007) Las etiquetas básicas de HTML, de obligada presencia en todo documento son:
+            </p> 
+            <p>
+                <blockquote>
+                        <h4>HTML: </h4>
+                        Es la etiqueta que define el inicio del documento HTML, le indica al navegador que todo lo que viene a continuación debe tratarlo como una serie de códigos HTML. 
+                        <br>
+                        <h4>HEAD:</h4> 
+                        Define la cabecera del documento HTML, esta cabecera suele contener información sobre el documento que no se muestra directamente en el navegador. Como por ejemplo el título de la ventana de su navegador. Dentro de esta etiqueta podemos encontrar:
+                        <blockquote>
+                            <h4>TITLE: </h4>
+                            Define el título de la página. Por lo general, el título aparece en la barra de título encima de la ventana. 
+                            <br>
+                            <h4>LINK: </h4>
+                            Para definir algunas características avanzadas, como por ejemplo los estilos usados para la visualización de la página
+                        </blockquote>
+                        <h4>BODY</h4>
+                        Define el contenido principal o cuerpo del documento, ésta es la parte del documento HTML que se muestra en el navegador, dentro de esta etiqueta pueden definirse propiedades comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo BODY podemos encontrar numerosísimas etiquetas. A continuación, se indican algunas a modo de ejemplo:
+                        <BLOCKquote>
+                            <H4>H1, H2..., H6: </H4>
+                            Encabezados o títulos del documento en diferentes tamaños de fuente. 
+                            <H4>P: </H4>
+                            Párrafo nuevo. 
+                            <H4>BR: </H4>
+                            Salto de línea forzado. 
+                            <H4>TABLE: </H4>
+                            Comienzo de una tabla (las filas se identifican con <TR> y las celdas dentro de las filas con <TD>). 
+                            <H4>a: </H4>
+                            Indica la existencia de un hipervínculo o enlace, dentro o fuera la página Web. Debe definirse el parámetro href que indica a donde apunta en enlace. 
+                            <H4>DIV: </H4>
+                            Comienzo de un área especial en la página. (p. 14-15)
+                        </BLOCKquote> 
+                </blockquote>
+            </p>
+            <P>
+                <H3>Atributos</H3>
+                Entender el concepto de atributo en HTML es tan fácil como comprender que es la propiedad que se le agrega a una etiqueta y así proporciona más información sobre ese elemento. Según Sanchez (2017) “Este otorgará una propiedad o comportamiento específico a la propia etiqueta.” (párr. 2) Por tal motivo es importante tener en cuenta los diferentes atributos que existen, a continuación, un pequeño listado los atributos más comunes:
+                <blockquote>
+                    <h4>id:</h4> 
+                    Establece un identificador a la etiqueta HTML (sólo una por página con ese nombre).
+                    <h4>Class:</h4> 
+                    Establece una clase (género) a una etiqueta HTML. Puede repetirse por página.
+                    <h4>Lang: </h4>
+                    Indica el idioma del contenido de la etiqueta HTML.
+                    <h4>Translate:</h4> 
+                    Indica si el contenido de la etiqueta es traducible o no.
+                    <h4>title: </h4>
+                    Mensaje mostrado en un tooltip (aviso amarillo emergente) al mover el ratón encima.
+                    <h4>data-*: </h4>
+                    Metadatos en la propia etiqueta. Se puede usar cualquier nombre con prefijo data-.
+                    <h4>Accesskey: </h4>
+                    Combinación de teclas que puede pulsar el usuario para activar el elemento.
+                    <h4>dir: </h4>
+                    Establece la direccionalidad del texto (left to right o right to left).
+                    <h4>Style: </h4>
+                    Aplica propiedades CSS directamente al elemento en cuestión.
+                </blockquote>
+            </P>
+            <p>
+                <h3>Valor</h3>
+                Este término hace referencia a como su nombre lo indica, al valor primitivo que contiene el contenedor de objetos; entendiendo valor primitivo como los datos que no son un objeto y no tienen métodos.
+            </p>
+            <br>
+            <p align="center" > 
+                    Por último, se presenta la siguiente imagen que ilustra a cabalidad los conceptos de cuyos temas han sido estudiados: 
+            </p>
+            <br>
+            <center>
+                <img src="img/Tema2.png" alt="Banner" width="900" height="284">
+            </center>
+        </article>
+
+        <aside>
+            <br>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=2500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="2500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+
+    </section>
+    <footer>
+               <h4>© Diseño de Sitios Web | 15 de abril del 2022 | Plantilla diseñada y desarrollado por Diego Oliveros.
+                   <br>
+                   daoliverosg@unadvirtual.edu.co - Skype: live:.cid.9b23e6d5c3e81fe6
+               </h4>
+    </footer>
+</body>
+</html>
